@@ -1,9 +1,9 @@
+// Ashton
 import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
+    
     int num = 0;
     String stringVar = "";
 
@@ -25,7 +25,7 @@ class Handler implements URLHandler {
     }
 }
 
-class SearcheEngine {
+class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
